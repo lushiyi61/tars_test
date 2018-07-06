@@ -13,6 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<mavenVersion>2.2.1</mavenVersion>
 		<mavenPluginPluginVersion>3.2</mavenPluginPluginVersion>
+		<kotlin.version>{{ site.data.releases.latest.version }}</kotlin.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -20,6 +21,11 @@
 			<artifactId>tars-core</artifactId>
 			<version>${project.parent.version}</version>
 			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>org.jetbrains.kotlin</groupId>
+			<artifactId>kotlin-stdlib</artifactId>
+			<version>${kotlin.version}</version>
 		</dependency>
 	</dependencies>
 	<build>

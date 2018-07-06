@@ -21,5 +21,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-examples/quickstart-server/target/classes/log/
-/examples/quickstart-server/target
+examples/quickstart-server/target
+examples/quickstart-client/target
+examples/quickstart-server/target/classes/TestApp.HelloJavaServer.config.conf
