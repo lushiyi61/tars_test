@@ -3,11 +3,11 @@
 // TARS version 1.0.1.
 // **********************************************************************
 
-package com.qq.tars.quickstart.client.testapp;
+package com.qq.tars.quickstart.client.jfgame;
 
 import com.qq.tars.rpc.protocol.tars.support.TarsAbstractCallback;
 
-public abstract class HelloPrxCallback extends TarsAbstractCallback {
+public abstract class TarsRoomPrxCallback extends TarsAbstractCallback {
 
 	public abstract void callback_hello(String ret);
 

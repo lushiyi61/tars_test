@@ -53,6 +53,7 @@
 					<tars2JavaConfig>
 						<tarsFiles>
 							<tarsFile>${basedir}/src/main/resources/hello.tars</tarsFile>
+							<tarsFile>${basedir}/src/main/resources/TarsRoom.tars</tarsFile>
 						</tarsFiles>
 						<tarsFileCharset>UTF-8</tarsFileCharset>
 						<servant>false</servant>
